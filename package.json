@@ -1,0 +1,24 @@
+{
+  "name": "regular-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@vitejs/plugin-legacy": "^5.4.1",
+    "autoprefixer": "^10.4.19",
+    "core-js": "^3.37.1",
+    "regenerator-runtime": "^0.14.1",
+    "vite": "^5.3.1",
+    "vite-plugin-babel": "^1.2.0"
+  },
+  "dependencies": {
+    "regularjs": "^0.6.2"
+  }
+}
